@@ -2,184 +2,162 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Portfolio Website</title>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Personal Portfolio Website</title>
 
-    <!-- font awesome -->
-    <link rel="stylesheet" href="css/all.css">
-    <!-- main css -->
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <!-- default color skin -->
-    <link rel="stylesheet" type="text/css" href="css/skins/color-1.css">
-    <!-- style switcher - for demo purpose only-->
-    <!-- responsive css -->
-    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+<!-- font awesome -->
+<link rel="stylesheet" href="css/all.css">
+<!-- main css -->
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<!-- default color skin -->
+<link rel="stylesheet" type="text/css" href="css/skins/color-2.css">
+<!-- style switcher - for demo purpose only-->
+<!-- responsive css -->
+<link rel="stylesheet" type="text/css" href="css/responsive.css">
+<!-- Bootstrap cdn link -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-    <link rel="stylesheet" type=text/css class="alternate-style" title="color-1" href="css/skins/color-1.css">
-    <link rel="stylesheet" type=text/css class="alternate-style" title="color-2" href="css/skins/color-2.css" disabled>
-    <link rel="stylesheet" type=text/css class="alternate-style" title="color-3" href="css/skins/color-3.css" disabled>
-    <link rel="stylesheet" type=text/css class="alternate-style" title="color-4" href="css/skins/color-4.css" disabled>
-    <link rel="stylesheet" type=text/css class="alternate-style" title="color-5" href="css/skins/color-5.css" disabled>
 
-    <link rel="stylesheet" type="text/css" href="css/style-switcher.css">
+
+<link rel="stylesheet" type=text/css class="alternate-style" title="color-1" href="css/skins/color-1.css">
+<link rel="stylesheet" type=text/css class="alternate-style" title="color-2" href="css/skins/color-2.css" disabled>
+<link rel="stylesheet" type=text/css class="alternate-style" title="color-3" href="css/skins/color-3.css" disabled>
+<link rel="stylesheet" type=text/css class="alternate-style" title="color-4" href="css/skins/color-4.css" disabled>
+<link rel="stylesheet" type=text/css class="alternate-style" title="color-5" href="css/skins/color-5.css" disabled>
+
+<link rel="stylesheet" type="text/css" href="css/style-switcher.css">
+
+
+<!-- fontawesome script -->
+<script src="https://kit.fontawesome.com/1a137fe8d5.js" crossorigin="anonymous"></script>
+
+<!-- Bootstrap script -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" 
+integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" 
+integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
 
 </head>
 
 <body>
 
-    <!-- preloader start -->
+<!-- preloader start -->
 
-    <div class="preloader">
-        <div class="box">
-            <div></div>
-            <div></div>
-            <div></div>
+<div class="preloader">
+    <div class="box">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+</div>
+
+<!-- preloader end -->
+
+<!-- header start -->
+<header class="header">
+    <div class="container logoh">
+        <div class="row justify-content-between">
+            <div class="logo">
+                <a href="index.html">R</a>
+            </div>
+            <div class="
+            hamburger-btn outer-shadow hover-in-shadow">
+                <span></span>
+            </div>
         </div>
     </div>
+</header>
 
-    <!-- preloader end -->
+<!-- header ends -->
 
-    <!-- header start -->
-    <header class="header">
-        <div class="container">
-            <div class="row justify-content-between">
-                <div class="logo">
-                    <a href="index.html">R</a>
-                </div>
-                <div class="hamburger-btn outer-shadow hover-in-shadow">
-                    <span></span>
-                </div>
-            </div>
-        </div>
-    </header>
+<!-- Navigation menu start -->
 
-    <!-- header ends -->
+<nav class="nav-menu">
+    <div class="close-nav-menu outer-shadow hover-in-shadow">&times;</div>
+    <div class="nav-menu-inner">
+        <ul>
+            <li><a href="#home" class=" link-item inner-shadow active">home</a></li>
+            <li><a href="#about" class=" link-item outer-shadow hover-in-shadow">about</a></li>
+            <li><a href="#services" class=" link-item outer-shadow hover-in-shadow">services</a></li>
+            <li><a href="#portfolio" class=" link-item outer-shadow hover-in-shadow">portfolio</a></li>
+            <!-- <li><a href="#testimonial" class=" link-item outer-shadow hover-in-shadow">testimonial</a></li> -->
+            <li><a href="#contact" class=" link-item outer-shadow hover-in-shadow">Contact</a></li>
+        </ul>
+    </div>
 
-    <!-- Navigation menu start -->
+    <!-- copyright text -->
 
-    <nav class="nav-menu">
-        <div class="close-nav-menu outer-shadow hover-in-shadow">&times;</div>
-        <div class="nav-menu-inner">
-            <ul>
-                <li><a href="#home" class=" link-item inner-shadow active">home</a></li>
-                <li><a href="#about" class=" link-item outer-shadow hover-in-shadow">about</a></li>
-                <li><a href="#services" class=" link-item outer-shadow hover-in-shadow">services</a></li>
-                <li><a href="#portfolio" class=" link-item outer-shadow hover-in-shadow">portfolio</a></li>
-                <!-- <li><a href="#testimonial" class=" link-item outer-shadow hover-in-shadow">testimonial</a></li> -->
-                <li><a href="#contact" class=" link-item outer-shadow hover-in-shadow">Contact</a></li>
-            </ul>
-        </div>
+    <p class="copyright-text">&copy; 2023 by Reena</p>
+</nav>
 
-        <!-- copyright text -->
+<div class="fade-out-effect"></div>
 
-        <p class="copyright-text">&copy; 2021 by Reena</p>
-    </nav>
+<!-- Navigation menu ends -->
 
-    <div class="fade-out-effect"></div>
+<!-- home section start -->
 
-    <!-- Navigation menu ends -->
+<section class="home-section section active" id="home">
+    <!-- Effect wrap start -->
+    <!-- <div class="effect-wrap">
+        <div class="effect effect-1"></div>
+        <div class="effect effect-2">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div> -->
+            <!-- 24 Divs -->
+        <!-- </div>
 
-    <!-- home section start -->
+        <div class="effect effect-3"> </div>
+        <div class="effect effect-4"></div>
+        <div class="effect effect-5">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div> -->
+            <!-- 10 Divs -->
+        <!-- </div>
+    </div> -->
 
-    <section class="home-section section active" id="home">
-        <!-- Effect wrap start -->
-        <div class="effect-wrap">
-            <div class="effect effect-1"></div>
-            <div class="effect effect-2">
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <!-- 24 Divs -->
-            </div>
-
-            <div class="effect effect-3"> </div>
-            <div class="effect effect-4"></div>
-            <div class="effect effect-5">
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <!-- 10 Divs -->
-            </div>
-        </div>
-
-        <!-- Effect wrap ends -->
-        <div class="container">
-            <div class="row full-screen align-items-center">
-                <div class="home-text">
-                    <p>Hello</p>
-                    <h2>I'm Reena Gupta</h2>
-                    <h1>Web Designer & Developer</h1>
-                    <a href="#about" class=" link-item btn-1 outer-shadow hover-in-shadow">More About Me</a>
-                </div>
-                <div class="home-img">
-                    <div class="img-box inner-shadow">
-                        <img src="img/img1.png" class="outer-shadow" alt="profile-pic">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- home section ends -->
-
-    <!-- About section start -->
-
-    <section class="about-section section" id="about">
-        <div class="container">
-            <div class="row">
-                <div class="section-title">
-                    <h2 data-heading="main info">About me</h2>
-                </div>
-            </div>
-            <div class="row">
-                <div class="about-img">
-                    <div class="img-box inner-shadow">
-                        <img src="img/img1.png" class="outer-shadow" alt="profile-pic">
-                    </div>
-                    <!-- social links start-->
-                    <div class="social-links">
-                        <a href="https://github.com/reena1417" class="outer-shadow hover-in-shadow" target="_blank"><i
-                                class="fab fa-github"></i></a>
-                        <!-- <a href="https://www.youtube.com/channel/UCbEM5DmoGbCspz9xCPWe4Gg" target="_blank"
-                            class="outer-shadow hover-in-shadow"><i class="fab fa-youtube"></i></a> -->
-                        <a href="https://www.instagram.com/elysian_r14/" class="outer-shadow hover-in-shadow"
-                            target="_blank"><i class="fab fa-instagram"></i></a>
-                        <a href="https://www.linkedin.com/in/reena-gupta-772429206/" target="_blank"
-                            class="outer-shadow hover-in-shadow"><i class="fab fa-linkedin-in"></i></a>
-
-
-                    </div>
-                    <!-- social links end -->
-                </div>
+    <!-- Effect wrap ends -->
+    <div class="container">
+        <div class="row full-screen align-items-center">
+            <div class="home-text">
+                
+                <h2><p>Hello</p>
+                    I'm Reena Gupta</h2>
+                <h1>Web Designer & Developer</h1>
                 <div class="about-info">
                     <p><span class="yellow">Hi! My name is Reena Gupta I am a full stack web developer.</span><br><br> I’m a passed out
                         student from <span class="yellow"> Vidyalankar Polytechnic. </span>
@@ -198,1011 +176,990 @@
                     <a href="#contact" class=" link-item btn-1 outer-shadow hover-in-shadow">Hire Me</a>
 
                 </div>
+                <!-- <a href="#about" class=" link-item btn-1 outer-shadow hover-in-shadow">More About Me</a> -->
             </div>
-            <!-- about tabs start-->
-            <div class="row">
-                <div class="about-tabs">
-                    <span class="tab-item outer-shadow active" data-target=".skills">skills</span>
-                    <span class="tab-item" data-target=".experience">experience</span>
-                    <span class="tab-item" data-target=".education">education</span>
+            <div class="home-img">
+                <div class="img-box">
+                    <img src="img/img1.png" class="outer-shadow" alt="profile-pic">
+                </div>
+
+                <div class="social-links">
+                    <a href="https://github.com/reena1417" class="outer-shadow hover-in-shadow" target="_blank"><i
+                            class="fab fa-github fa-2x"></i></a>
+                    <!-- <a href="https://www.youtube.com/channel/UCbEM5DmoGbCspz9xCPWe4Gg" target="_blank"
+                        class="outer-shadow hover-in-shadow"><i class="fab fa-youtube"></i></a> -->
+                    <a href="https://www.instagram.com/elysian_r14/" class="outer-shadow hover-in-shadow"
+                        target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
+                    <a href="https://www.linkedin.com/in/reena-gupta-772429206/" target="_blank"
+                        class="outer-shadow hover-in-shadow"><i class="fab fa-linkedin-in fa-2x"></i></a>
+
+
                 </div>
             </div>
-            <!-- about tabs end -->
-
-            <!-- skills start -->
-            <div class="row">
-                <div class="skills tab-content active">
-                    <div class="row">
-                        <!-- skill item start -->
-                        <div class="skill-item">
-                            <p>Html</p>
-                            <div class="progress inner-shadow">
-                                <div class="progress-bar" style="width: calc(90% - 14px);">
-                                    <span>90%</span>
-
-                                </div>
-                            </div>
-                        </div>
-                        <!-- skill item end -->
-
-                        <!-- skill item start -->
-                        <div class="skill-item">
-                            <p>Javascript</p>
-                            <div class="progress inner-shadow">
-                                <div class="progress-bar" style="width: calc(30% - 14px);">
-                                    <span>30%</span>
-
-                                </div>
-                            </div>
-                        </div>
-                        <!-- skill item end -->
-
-
-                        <!-- skill item start -->
-                        <div class="skill-item">
-                            <p>Bootstrap</p>
-                            <div class="progress inner-shadow">
-                                <div class="progress-bar" style="width: calc(70% - 14px);">
-                                    <span>70%</span>
-
-                                </div>
-                            </div>
-                        </div>
-                        <!-- skill item end -->
-
-                        <!-- skill item start -->
-                        <div class="skill-item">
-                            <p>Jquery</p>
-                            <div class="progress inner-shadow">
-                                <div class="progress-bar" style="width: calc(20% - 14px);">
-                                    <span>20%</span>
-
-                                </div>
-                            </div>
-                        </div>
-                        <!-- skill item end -->
-
-                        <!-- skill item start -->
-                        <!-- <div class="skill-item">
-                            <p>angular</p>
-                            <div class="progress inner-shadow">
-                                <div class="progress-bar" style="width: calc(10% - 14px);">
-                                    <span>10%</span>
-
-                                </div>
-                            </div>
-                        </div> -->
-                        <!-- skill item end -->
-
-                        <!-- skill item start -->
-                        <div class="skill-item">
-                            <p>php</p>
-                            <div class="progress inner-shadow">
-                                <div class="progress-bar" style="width: calc(40% - 14px);">
-                                    <span>40%</span>
-
-                                </div>
-                            </div>
-                        </div>
-                        <!-- skill item end -->
-
-                        <!-- skill item start -->
-                        <div class="skill-item">
-                            <p>C</p>
-                            <div class="progress inner-shadow">
-                                <div class="progress-bar" style="width: calc(60% - 14px);">
-                                    <span>60%</span>
-
-                                </div>
-                            </div>
-                        </div>
-                        <!-- skill item end -->
-
-                        <!-- skill item start -->
-                        <div class="skill-item">
-                            <p>C++</p>
-                            <div class="progress inner-shadow">
-                                <div class="progress-bar" style="width: calc(50% - 14px);">
-                                    <span>50%</span>
-
-                                </div>
-                            </div>
-                        </div>
-                        <!-- skill item end -->
-
-                        <!-- skill item start -->
-                        <div class="skill-item">
-                            <p>Java</p>
-                            <div class="progress inner-shadow">
-                                <div class="progress-bar" style="width: calc(80% - 14px);">
-                                    <span>80%</span>
-
-                                </div>
-                            </div>
-                        </div>
-                        <!-- skill item end -->
-
-                        <!-- skill item start -->
-                        <div class="skill-item">
-                            <p>python</p>
-                            <div class="progress inner-shadow">
-                                <div class="progress-bar" style="width: calc(30% - 14px);">
-                                    <span>30%</span>
-
-                                </div>
-                            </div>
-                        </div>
-                        <!-- skill item end -->
-
-                        <!-- skill item start -->
-                        <!-- <div class="skill-item">
-                            <p>Ruby</p>
-                            <div class="progress inner-shadow">
-                                <div class="progress-bar" style="width: calc(0% - 14px);">
-                                    <span>30%</span>
-
-                                </div>
-                            </div>
-                        </div> -->
-                        <!-- skill item end -->
-
-                        <!-- skill item start -->
-                        <div class="skill-item">
-                            <p>R</p>
-                            <div class="progress inner-shadow">
-                                <div class="progress-bar" style="width: calc(20% - 14px);">
-                                    <span>20%</span>
-
-                                </div>
-                            </div>
-                        </div>
-                        <!-- skill item end -->
-
-                        <!-- skill item start -->
-                        <div class="skill-item">
-                            <p>Node.js</p>
-                            <div class="progress inner-shadow">
-                                <div class="progress-bar" style="width: calc(50% - 14px);">
-                                    <span>50%</span>
-
-                                </div>
-                            </div>
-                        </div>
-                        <!-- skill item end -->
-
-                        <!-- skill item start -->
-                        <div class="skill-item">
-                            <p>Go</p>
-                            <div class="progress inner-shadow">
-                                <div class="progress-bar" style="width: calc(40% - 14px);">
-                                    <span>40%</span>
-
-                                </div>
-                            </div>
-                        </div>
-                        <!-- skill item end -->
-                    </div>
-                </div>
-            </div>
-            <!-- skills end-->
-
-            <!-- experience start-->
-            <div class="row">
-                <div class="experience tab-content">
-                    <div class="row">
-                        <div class="timeline">
-                            <div class="row">
-                                <!-- timeline item start -->
-                                <div class="timeline-item">
-                                    <div class="timeline-items-inner outer-shadow">
-                                        <i class="fas fa-briefcase icon"></i>
-                                        <span>15th May 2019 - 25th June 2019</span>
-                                        <h3>Social Media Marketing</h3>
-
-                                        <a href="https://www.comptelsolutions.com/" target="_blank">
-                                            <h4><span>Comptel Solutions PVT.LTD. Information & Telecom Solutions</span>
-                                            </h4>
-                                        </a>
-
-                                        <p>As an Intern, I've study of social Media Marketing in Internship
-                                        </p>
-                                        <a href="certificate.pdf" class="btn-1 outer-shadow hover-in-shadow"
-                                            target="_blank">View Certificate</a>
-                                    </div>
-                                </div>
-                                <!-- timeline item end -->
-
-                                <!-- timeline item start -->
-                                <!-- <div class="timeline-item">
-                                    <div class="timeline-items-inner outer-shadow">
-                                        <i class="fas fa-briefcase icon"></i>
-                                        <span>Sep, 2016 - Oct, 2017</span>
-                                        <h3>Web designer</h3>
-                                        <h4>company name,india</h4>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                            tempor incididunt ut
-                                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                            exercitation</p>
-                                    </div>
-                                </div> -->
-                                <!-- timeline item end -->
-
-
-                                <!-- timeline item start -->
-                                <!-- <div class="timeline-item">
-                                    <div class="timeline-items-inner outer-shadow">
-                                        <i class="fas fa-briefcase icon"></i>
-                                        <span>Sep, 2014 - Jun, 2016</span>
-                                        <h3>Web designer</h3>
-                                        <h4>company name,india</h4>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                            tempor incididunt ut
-                                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                            exercitation</p>
-                                    </div>
-                                </div> -->
-                                <!-- timeline item end -->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- experience end-->
-
-            <!--education start -->
-
-            <div class="row">
-                <div class="education tab-content">
-                    <div class="row">
-                        <div class="timeline">
-                            <div class="row">
-                                <!-- timeline item start -->
-                                <div class="timeline-item">
-                                    <div class="timeline-items-inner outer-shadow">
-                                        <i class="fas fa-graduation-cap icon"></i>
-                                        <span>2021 - Present</span>
-                                        <a href="https://rstforum.net/" target="_blank">
-                                            <h3>RST FORUM</h3>
-                                        </a>
-                                        <!-- <h4>company name,india</h4> -->
-                                        <p>I've done Java Programming Course of 2 months</p>
-                                    </div>
-                                </div>
-                                <!-- timeline item end -->
-
-                                <!-- timeline item start -->
-                                <div class="timeline-item">
-                                    <div class="timeline-items-inner outer-shadow">
-                                        <i class="fas fa-graduation-cap icon"></i>
-                                        <span>2017 - 2020</span>
-                                        <a href="https://vpt.edu.in/" target="_blank">
-                                            <h3>Vidyalankar Polytechnic</h3>
-                                        </a>
-                                        <!-- <h4>company name,india</h4> -->
-                                        <p>I've completed my Diploma of 3 year in Information Technology(IT).</p>
-                                        <p>And also six weeks of internship at Comptel Solutions .Pvt .Ltd provided by
-                                            college.</p>
-                                    </div>
-                                </div>
-                                <!-- timeline item end -->
-
-
-                                <!-- timeline item start -->
-                                <div class="timeline-item">
-                                    <div class="timeline-items-inner outer-shadow">
-                                        <i class="fas fa-graduation-cap icon"></i>
-                                        <span>2006 - 2017</span>
-                                        <a href="http://www.beskurla.org/" target="_blank">
-                                            <h3>Karthika High School & JR College</h3>
-                                        </a>
-                                        <!-- <h4>company name,india</h4> -->
-                                        <p>I've completed my twelve years of schooling from kindergarden to 10th std</p>
-                                    </div>
-                                </div>
-                                <!-- timeline item end -->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- education end-->
+            
         </div>
-    </section>
+    </div>
+</section>
+<!-- home section ends -->
 
-    <!-- About section end -->
+<!-- About section start -->
 
-
-    <!-- Service Section  start-->
-
-    <section class="service-section section" id="services">
-        <div class="container">
-            <div class="row">
-                <div class="section-title">
-                    <h2 data-heading="Services">What i do</h2>
-                </div>
+<section class="about-section section" id="about">
+    <div class="container">
+        <div class="row">
+            <!-- <div class="section-title">
+                <h2 data-heading="main info">About me</h2>
+            </div> -->
+        </div>
+        <div class="row">
+            <div class="about-img">
+                <!-- <div class="img-box inner-shadow"> -->
+                    <!-- <img src="img/img1.png" class="outer-shadow" alt="profile-pic"> -->
+                <!-- </div> -->
+                <!-- social links start-->
+                
+                <!-- social links end -->
             </div>
-            <div class="row">
-                <!-- service item start -->
-                <div class="service-item">
-                    <div class="service-item-inner outer-shadow">
-                        <div class="icon inner-shadow">
-                            <i class="fas fa-mobile-alt"></i>
-                        </div>
-                        <h3>Full Stack Webdevelopment</h3>
-                        <p>I can build a responsive website</p>
-                    </div>
-                </div>
-                <!-- service item end -->
+            <!-- <div class="about-info">
+                <p><span class="yellow">Hi! My name is Reena Gupta I am a full stack web developer.</span><br><br> I’m a passed out
+                    student from <span class="yellow"> Vidyalankar Polytechnic. </span>
+                    I’ve done Diploma In IT after 10th std.
+                    I can build a responsive website with a good Frontend plus can also do Backend coding of the
+                    website.
+                </p>
+                <p> My IT carrier started from 2017 Diploma in <span class="yellow">Vidyalankar Polytechnic</span> 3 years with
+                    I've also done an internship
+                    in <span class="yellow"> Comptel Solutions Pvt. Ltd. </span>for 6 weeks as a Social Media Marketing
+                    Intern and now pursuing more technical knowledge in the <span class="yellow">RST Forum </span>
+                    for 2 months to improve logical thinking, programmability, and error solving skills.</p>
+                <p>As a freelancer, <span class="yellow">I also run a small business on Instagram.</span>  I am glad you are here to visit
+                    my portfolio and I will be very happy If I can help you</p>
+                <a href="Reena Gupta.pdf" class="btn-1 outer-shadow hover-in-shadow" target="_blank">Download CV</a>
+                <a href="#contact" class=" link-item btn-1 outer-shadow hover-in-shadow">Hire Me</a>
 
-                <!-- service item start -->
-                <div class="service-item">
-                    <div class="service-item-inner outer-shadow">
-                        <div class="icon inner-shadow">
-                            <i class="fas fa-laptop-code"></i>
-                        </div>
-                        <h3>Desktop Application</h3>
-                        <p>I can build a Desktop Application</p>
-                    </div>
-                </div>
-                <!-- service item end -->
-
-                <!-- service item start -->
-                <div class="service-item">
-                    <div class="service-item-inner outer-shadow">
-                        <div class="icon inner-shadow">
-                            <i class="fas fa-palette"></i>
-                        </div>
-                        <h3>Digital Marketing</h3>
-                        <p>I can Market Any Software or Product Organically Online.</p>
-                    </div>
-                </div>
-                <!-- service item end -->
-
-
-                <!-- service item start -->
-                <div class="service-item">
-                    <div class="service-item-inner outer-shadow">
-                        <div class="icon inner-shadow">
-                            <i class="fas fa-code"></i>
-                        </div>
-                        <h3>Clean Code</h3>
-                        <p>I Try to Keep the code as Simple as Easy to Read, Understand and Maintain for Reader</p>
-                    </div>
-                </div>
-                <!-- service item end -->
-
-                <!-- service item start -->
-                <div class="service-item">
-                    <div class="service-item-inner outer-shadow">
-                        <div class="icon inner-shadow">
-                            <i class="fas fa-search"></i>
-                        </div>
-                        <h3>Social Media marketing</h3>
-                        <p>I can Maintain and Handle Social Media Account better</p>
-                    </div>
-                </div>
-                <!-- service item end -->
-
-
-                <!-- service item start -->
-                <div class="service-item">
-                    <div class="service-item-inner outer-shadow">
-                        <div class="icon inner-shadow">
-                            <i class="fas fa-bullhorn"></i>
-                        </div>
-                        <h3>Great Support</h3>
-                        <p>I will Get in Touch as soon as Possible with any Technical Issues in Future</p>
-                    </div>
-                </div>
-                <!-- service item end -->
-
+            </div> -->
+        </div>
+        <!-- about tabs start-->
+        <div class="row">
+            <div class="about-tabs">
+                <span class="tab-item outer-shadow active" data-target=".skills">skills</span>
+                <span class="tab-item" data-target=".experience">experience</span>
+                <span class="tab-item" data-target=".education">education</span>
             </div>
         </div>
+        <!-- about tabs end -->
 
-    </section>
-    <!-- service section ends  -->
+        <!-- skills start -->
+        <div class="row">
+            <div class="skills tab-content active">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-4">
+                            <!-- skill item start -->
+                            <div class="skill-item">
+                                <i class="fab fa-java fa-3x"></i>
+                                <p>Html</p>
+                            </div>
+                        </div>
+                        <!-- skill item end -->
+
+                        <!-- skill item start -->
+                        <div class="col-12 col-sm-4">
+                            <div class="skill-item">
+                                <i class="fab fa-js fa-3x"></i>
+                                <p>Javascript</p>
+                            </div>
+                        </div>   
+                        <!-- skill item end -->
 
 
-    <!-- portfolio section start-->
+                        <!-- skill item start -->
+                        <div class="col-12 col-sm-4">
+                            <div class="skill-item">
+                                <i class="fab fa-bootstrap fa-3x"></i>
+                                <p>Bootstrap</p>
+                            </div>
+                        </div>
+                        <!-- skill item end -->
+                    </div>
 
-    <section class="portfolio-section section" id="portfolio">
-        <div class="container">
-            <div class="row">
-                <div class="section-title">
-                    <h2 data-heading="portfolio">Latest work heading</h2>
-                </div>
+                    <div class="row">
+                        <!-- skill item start -->
+                        <div class="col-12 col-sm-4">
+                            <div class="skill-item">
+                                <i class="fas fa-leaf fa-3x"></i>
+                                <p>Springboot</p>
+                            </div>
+                        </div>
+                        <!-- skill item end -->
+                
+                        <!-- skill item start -->
+                        <div class="col-12 col-sm-4">
+                            <div class="skill-item">
+                                <i class="fab fa-angular fa-3x"></i>
+                                <p>angular</p>
+                        
+                            </div>
+                        </div>
+                        <!-- skill item end -->
+
+                        <!-- skill item start -->
+                        <div class="col-12 col-sm-4">
+                            <div class="skill-item">
+                                <i class="fab fa-php fa-3x"></i>
+                                <p>php</p>
+                            </div>
+                        </div>
+                        <!-- skill item end -->
+                    </div>  
+                </div>  
             </div>
+        </div>
+        <!-- skills end-->
 
-            <!-- portfolio filter start-->
+        <!-- experience start-->
+        <div class="row">
+            <div class="experience tab-content">
+                <div class="row">
+                    <div class="timeline">
+                        <div class="row">
+                            <!-- timeline item start -->
+                            <div class="timeline-item">
+                                <div class="timeline-items-inner outer-shadow">
+                                    <i class="fas fa-briefcase icon"></i>
+                                    <span>15th May 2019 - 25th June 2019</span>
+                                    <h3>Social Media Marketing</h3>
 
-            <div class="row">
-                <div class="portfolio-filter">
-                    <span class="filter-item outer-shadow active" data-target="all">all</span>
-                    <span class="filter-item" data-target="web-application">web application</span>
-                    <span class="filter-item" data-target="desktop-application">Desktop Application</span>
-                    <!-- <span class="filter-item" data-target="mobile-app">mobile app</span> -->
-                    <!-- <span class="filter-item" data-target="e-commerce">e commerce</span> -->
-                </div>
-            </div>
+                                    <a href="https://www.comptelsolutions.com/" target="_blank">
+                                        <h4><span>Comptel Solutions PVT.LTD. Information & Telecom Solutions</span>
+                                        </h4>
+                                    </a>
 
-            <!-- portfolio filter end-->
-
-            <!-- portfolio items start -->
-
-            <div class="row portfolio-items">
-                <!-- portfolio item start -->
-                <div class="portfolio-item" data-category="desktop-application">
-                    <div class="portfolio-item-inner outer-shadow">
-                        <div class="portfolio-item-img">
-                            <img src="img/portfolio/thumb/project-1.png" alt="portfolio" data-screenshots="img/portfolio/large/project-1/ss1.png,
-                             img/portfolio/large/project-1/ss2.png,
-                             img/portfolio/large/project-1/ss3.png,
-                             img/portfolio/large/project-1/ss4.png,
-                             img/portfolio/large/project-1/ss5.png,
-                             img/portfolio/large/project-1/ss6.png,
-                             img/portfolio/large/project-1/ss7.png,
-                             img/portfolio/large/project-1/ss8.png,
-                             img/portfolio/large/project-1/ss9.png,
-                             img/portfolio/large/project-1/ss10.png">
-                            <!-- view project btn -->
-                            <span class="view-project">view project</span>
-                        </div>
-                        <p class="portfolio-item-title">Employee Management System </p>
-
-                        <!-- portfolio item details start  -->
-
-                        <div class="portfolio-item-details">
-                            <div class="row">
-                                <div class="description">
-                                    <h3>Project Brief:</h3>
-                                    <p>It is an Employee Management Desktop Application, In this User can Load Insert Update Delete and search the data and also Search the data by using employee id 
-                                        Before using this application user have to login first. This project was created during our course in RST FORUM.
-                                        </p>
-                                </div>
-                                <div class="info">
-                                    <h3>Project info</h3>
-                                    <ul>
-                                        <li>Date - <span>28 April 2021</span></li>
-                                        <!-- <li>Client - <span>xyz</span></li> -->
-                                        <li>Languages - <span>JAVA</span></li>
-                                        <li>Tools - <span>Eclipes , mysql Workbech</span></li>
-                                        <li>Desktop App</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- portfolio item details end  -->
-
-                    </div>
-                </div>
-                <!-- portfolio item end -->
-
-                <!-- portfolio item start -->
-                <div class="portfolio-item" data-category="web-application">
-                    <div class="portfolio-item-inner outer-shadow">
-                        <div class="portfolio-item-img">
-                            <img src="img/portfolio/thumb/project-2.png" alt="portfolio" data-screenshots="img/portfolio/large/project-2/ss1.png">
-                            <!-- view project btn -->
-                            <span class="view-project">view project</span>
-                        </div>
-                        <p class="portfolio-item-title">Dog  Matrimonial</p>
-
-                        <!-- portfolio item details start  -->
-
-                        <div class="portfolio-item-details">
-                            <div class="row">
-                                <div class="description">
-                                    <h3>Project Brief:</h3>
-                                    <p>On this website you can find a perfect match for Dog, This project is kind of Tinder Website
-                                        It is just a web Design page to learn Html CSS and BootStrap from Udemy.
-                                        </p>
-                                </div>
-                                <div class="info">
-                                    <h3>Project info</h3>
-                                    <ul>
-                                        <li>Date - <span>20 May 2021</span></li>
-                                        <!-- <li>Client - <span>xyz</span></li> -->
-                                        <li>Languages - <span>html css Bootstrap-4</span></li>
-                                        <li>Tools - <span>Visual Studio Code</span></li>
-                                        <!-- <li>Web - <span><a href="#">www.domain.com</a></span></li> -->
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- portfolio item details end  -->
-
-                    </div>
-                </div>
-                <!-- portfolio item end -->
-
-                <!-- portfolio item start -->
-                <div class="portfolio-item" data-category="web-application">
-                    <div class="portfolio-item-inner outer-shadow">
-                        <div class="portfolio-item-img">
-                            <img src="img/portfolio/thumb/project-3.png" alt="portfolio" data-screenshots="img/portfolio/large/project-3/ss1.png,
-                                         img/portfolio/large/project-3/ss2.png,
-                                         img/portfolio/large/project-3/sserror.png,
-                                         img/portfolio/large/project-3/ss3.png,
-                                         img/portfolio/large/project-3/ss4.png,
-                                         img/portfolio/large/project-3/ss5.png,
-                                         img/portfolio/large/project-3/ss6.png,
-                                         img/portfolio/large/project-3/ss7.png,
-                                         img/portfolio/large/project-3/sss.png,
-                                         img/portfolio/large/project-3/ss8.png,
-                                         img/portfolio/large/project-3/ss9.png,
-                                         img/portfolio/large/project-3/ss10.png,
-                                         img/portfolio/large/project-3/ss11.png,
-                                         img/portfolio/large/project-3/ss12.png,
-                                         img/portfolio/large/project-3/ss13.png,
-                                         img/portfolio/large/project-3/ss14.png">
-                            <!-- view project btn -->
-                            <span class="view-project">view project</span>
-                        </div>
-                        <p class="portfolio-item-title">Employee Management System</p>
-
-                        <!-- portfolio item details start  -->
-
-                        <div class="portfolio-item-details">
-                            <div class="row">
-                                <div class="description">
-                                    <h3>Project Brief:</h3>
-                                    <p>It is an Employee Management Web Application, In this Website Admin can Add Update Delete Print Employee Data, and Assigned Projects. 
-                                        The login access is given only to the admin and Employee can view the website This project is given by RST FORUM for practice purpose. 
+                                    <p>As an Intern, I've study of social Media Marketing in Internship
                                     </p>
-                                </div>
-                                <div class="info">
-                                    <h3>Project info</h3>
-                                    <ul>
-                                        <li>Date - <span>1 May -16 May 2021</span></li>
-                                        <!-- <li>Client - <span>xyz</span></li> -->
-                                        <li>Languages - <span>Html Css Bootstrap-4 Java JSP mysql</span></li>
-                                        <li>Tools - <span>Eclips , Mysql Workbench</span></li>
-                                        <!-- <li>Web - <span><a href="#">www.domain.com</a></span></li> -->
-                                    </ul>
+                                    <a href="certificate.pdf" class="btn-1 outer-shadow hover-in-shadow"
+                                        target="_blank">View Certificate</a>
                                 </div>
                             </div>
-                        </div>
+                            <!-- timeline item end -->
 
-                        <!-- portfolio item details end  -->
-
-                    </div>
-                </div>
-                <!-- portfolio item end -->
-
-
-                <!-- portfolio item start -->
-                <div class="portfolio-item" data-category="web-application">
-                    <div class="portfolio-item-inner outer-shadow">
-                        <div class="portfolio-item-img">
-                            <img src="img/portfolio/thumb/project-4.png" alt="portfolio"
-                                data-screenshots="img/portfolio/large/project-4/ss1.png">
-                            <!-- view project btn -->
-                            <span class="view-project">view project</span>
-                        </div>
-                        <p class="portfolio-item-title">MamaJI Meals</p>
-
-                        <!-- portfolio item details start  -->
-
-                        <div class="portfolio-item-details">
-                            <div class="row">
-                                <div class="description">
-                                    <h3>Project Brief:</h3>
-                                    <p>Mamaji Meals is a basic web-designed page that I’ve completed in the RST Forum's Course to apply and learn most of the HyperText Markup Language tags and Cascading Style Sheets attributes.
-                                    </p>
-                                </div>
-                                <div class="info">
-                                    <h3>Project info</h3>
-                                    <ul>
-                                        <li>Date - <span>5 April - 8 April 2021</span></li>
-                                        <!-- <li>Client - <span>xyz</span></li> -->
-                                        <li>Languages - <span>html css </span></li>
-                                        <li>Tools - <span>Visual Studio Code </span></li>
-                                        <!-- <li>Web - <span><a href="#">www.domain.com</a></span></li> -->
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- portfolio item details end  -->
-
-                    </div>
-                </div>
-                <!-- portfolio item end -->
-
-                <!-- portfolio item start -->
-                <!-- <div class="portfolio-item" data-category="web-application">
-                    <div class="portfolio-item-inner outer-shadow">
-                        <div class="portfolio-item-img">
-                            <img src="img/portfolio/thumb/project-5.png" alt="portfolio"
-                                data-screenshots="img/portfolio/large/project-5/1.png"> -->
-                            <!-- view project btn -->
-                            <!-- <span class="view-project">view project</span>
-                        </div> -->
-                        <!-- <p class="portfolio-item-title">fitness & gym</p> -->
-
-                        <!-- portfolio item details start  -->
-
-                        <!-- <div class="portfolio-item-details">
-                            <div class="row">
-                                <div class="description">
-                                    <h3>Project Brief:</h3>
+                            <!-- timeline item start -->
+                            <!-- <div class="timeline-item">
+                                <div class="timeline-items-inner outer-shadow">
+                                    <i class="fas fa-briefcase icon"></i>
+                                    <span>Sep, 2016 - Oct, 2017</span>
+                                    <h3>Web designer</h3>
+                                    <h4>company name,india</h4>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                                         tempor incididunt ut
                                         labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
                                         exercitation</p>
                                 </div>
-                                <div class="info">
-                                    <h3>Project info</h3>
-                                    <ul>
-                                        <li>Date - <span>2020</span></li>
-                                        <li>Client - <span>xyz</span></li>
-                                        <li>Tools - <span>html css Jquery</span></li>
-                                        <li>Web - <span><a href="#">www.domain.com</a></span></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div> -->
+                            </div> -->
+                            <!-- timeline item end -->
 
-                        <!-- portfolio item details end  -->
 
-                    <!-- </div>
-                </div> -->
-                <!-- portfolio item end -->
-
-                <!-- portfolio item start -->
-                <!-- <div class="portfolio-item" data-category="web-application">
-                    <div class="portfolio-item-inner outer-shadow">
-                        <div class="portfolio-item-img">
-                            <img src="img/portfolio/thumb/project-6.png" alt="portfolio" data-screenshots="img/portfolio/large/project-6/1.png,
-                                                 img/portfolio/large/project-6/2.png,
-                                                 img/portfolio/large/project-6/3.png"> -->
-                            <!-- view project btn -->
-                            <!-- <span class="view-project">view project</span>
-                        </div>
-                        <p class="portfolio-item-title">quiz application</p> -->
-
-                        <!-- portfolio item details start  -->
-
-                        <!-- <div class="portfolio-item-details">
-                            <div class="row">
-                                <div class="description">
-                                    <h3>Project Brief:</h3>
+                            <!-- timeline item start -->
+                            <!-- <div class="timeline-item">
+                                <div class="timeline-items-inner outer-shadow">
+                                    <i class="fas fa-briefcase icon"></i>
+                                    <span>Sep, 2014 - Jun, 2016</span>
+                                    <h3>Web designer</h3>
+                                    <h4>company name,india</h4>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                                         tempor incididunt ut
                                         labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
                                         exercitation</p>
                                 </div>
-                                <div class="info">
-                                    <h3>Project info</h3>
-                                    <ul>
-                                        <li>Date - <span>2020</span></li>
-                                        <li>Client - <span>xyz</span></li>
-                                        <li>Tools - <span>html css Javascript</span></li>
-                                        <li>Web - <span><a href="#">www.domain.com</a></span></li>
-                                    </ul>
+                            </div> -->
+                            <!-- timeline item end -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- experience end-->
+
+        <!--education start -->
+
+        <div class="row">
+            <div class="education tab-content">
+                <div class="row">
+                    <div class="timeline">
+                        <div class="row">
+                            <!-- timeline item start -->
+                            <div class="timeline-item">
+                                <div class="timeline-items-inner outer-shadow">
+                                    <i class="fas fa-graduation-cap icon"></i>
+                                    <span>2021</span>
+                                    <a href="https://engineering.saraswatikharghar.edu.in/" target="_blank">
+                                        <h3>Saraswati college of engineering</h3>
+                                    </a>
+                                    <!-- <h4>company name,india</h4> -->
+                                    <p>Pursing Degree in Artifical Intelligence and Machine Learning</p>
                                 </div>
                             </div>
-                        </div> -->
+                            <!-- timeline item end -->
+                            <!-- timeline item start -->
+                            <div class="timeline-item">
+                                <div class="timeline-items-inner outer-shadow">
+                                    <i class="fas fa-graduation-cap icon"></i>
+                                    <span>2021 - AUG-OCT</span>
+                                    <a href="https://rstforum.net/" target="_blank">
+                                        <h3>RST FORUM</h3>
+                                    </a>
+                                    <!-- <h4>company name,india</h4> -->
+                                    <p>I've done Advance Java Programming Course of 4 months</p>
+                                </div>
+                            </div>
+                            <!-- timeline item end -->
+                            <!-- timeline item start -->
+                            <div class="timeline-item">
+                                <div class="timeline-items-inner outer-shadow">
+                                    <i class="fas fa-graduation-cap icon"></i>
+                                    <span>2021 - 10JUN</span>
+                                    <a href="https://rstforum.net/" target="_blank">
+                                        <h3>RST FORUM</h3>
+                                    </a>
+                                    <!-- <h4>company name,india</h4> -->
+                                    <p>I've done Java Programming Course of 2 months</p>
+                                </div>
+                            </div>
+                            <!-- timeline item end -->
 
-                        <!-- portfolio item details end  -->
+                            <!-- timeline item start -->
+                            <div class="timeline-item">
+                                <div class="timeline-items-inner outer-shadow">
+                                    <i class="fas fa-graduation-cap icon"></i>
+                                    <span>2017 - 2020</span>
+                                    <a href="https://vpt.edu.in/" target="_blank">
+                                        <h3>Vidyalankar Polytechnic</h3>
+                                    </a>
+                                    <!-- <h4>company name,india</h4> -->
+                                    <p>I've completed my Diploma of 3 year in Information Technology(IT).</p>
+                                    <p>And also six weeks of internship at Comptel Solutions .Pvt .Ltd provided by
+                                        college.</p>
+                                </div>
+                            </div>
+                            <!-- timeline item end -->
+
+
+                            <!-- timeline item start -->
+                            <div class="timeline-item">
+                                <div class="timeline-items-inner outer-shadow">
+                                    <i class="fas fa-graduation-cap icon"></i>
+                                    <span>2006 - 2017</span>
+                                    <a href="http://www.beskurla.org/" target="_blank">
+                                        <h3>Karthika High School & JR College</h3>
+                                    </a>
+                                    <!-- <h4>company name,india</h4> -->
+                                    <p>I've completed my twelve years of schooling from kindergarden to 10th std</p>
+                                </div>
+                            </div>
+                            <!-- timeline item end -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- education end-->
+    </div>
+</section>
+
+<!-- About section end -->
+
+
+<!-- Service Section  start-->
+
+<section class="service-section section" id="services">
+    <div class="container">
+        <div class="row">
+            <div class="section-title">
+                <h2 data-heading="Services">What i do</h2>
+            </div>
+        </div>
+        <div class="row">
+            <!-- service item start -->
+            <div class="service-item">
+                <div class="service-item-inner outer-shadow">
+                    <div class="icon inner-shadow">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Full Stack Webdevelopment</h3>
+                    <p>I can build a responsive website</p>
+                </div>
+            </div>
+            <!-- service item end -->
+
+            <!-- service item start -->
+            <div class="service-item">
+                <div class="service-item-inner outer-shadow">
+                    <div class="icon inner-shadow">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Desktop Application</h3>
+                    <p>I can build a Desktop Application</p>
+                </div>
+            </div>
+            <!-- service item end -->
+
+            <!-- service item start -->
+            <div class="service-item">
+                <div class="service-item-inner outer-shadow">
+                    <div class="icon inner-shadow">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3>Digital Marketing</h3>
+                    <p>I can Market Any Software or Product Organically Online.</p>
+                </div>
+            </div>
+            <!-- service item end -->
+
+
+            <!-- service item start -->
+            <div class="service-item">
+                <div class="service-item-inner outer-shadow">
+                    <div class="icon inner-shadow">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Clean Code</h3>
+                    <p>I Try to Keep the code as Simple as Easy to Read, Understand and Maintain for Reader</p>
+                </div>
+            </div>
+            <!-- service item end -->
+
+            <!-- service item start -->
+            <div class="service-item">
+                <div class="service-item-inner outer-shadow">
+                    <div class="icon inner-shadow">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <h3>Social Media marketing</h3>
+                    <p>I can Maintain and Handle Social Media Account better</p>
+                </div>
+            </div>
+            <!-- service item end -->
+
+
+            <!-- service item start -->
+            <div class="service-item">
+                <div class="service-item-inner outer-shadow">
+                    <div class="icon inner-shadow">
+                        <i class="fas fa-bullhorn"></i>
+                    </div>
+                    <h3>Great Support</h3>
+                    <p>I will Get in Touch as soon as Possible with any Technical Issues in Future</p>
+                </div>
+            </div>
+            <!-- service item end -->
+
+        </div>
+    </div>
+
+</section>
+<!-- service section ends  -->
+
+
+<!-- portfolio section start-->
+
+<section class="portfolio-section section" id="portfolio">
+    <div class="container">
+        <div class="row">
+            <div class="section-title">
+                <h2 data-heading="portfolio">Latest work heading</h2>
+            </div>
+        </div>
+
+        <!-- portfolio filter start-->
+
+        <div class="row">
+            <div class="portfolio-filter">
+                <span class="filter-item outer-shadow active" data-target="all">all</span>
+                <span class="filter-item" data-target="web-application">web application</span>
+                <span class="filter-item" data-target="desktop-application">Desktop Application</span>
+                <!-- <span class="filter-item" data-target="mobile-app">mobile app</span> -->
+                <!-- <span class="filter-item" data-target="e-commerce">e commerce</span> -->
+            </div>
+        </div>
+
+        <!-- portfolio filter end-->
+
+        <!-- portfolio items start -->
+
+        <div class="row portfolio-items">
+            <!-- portfolio item start -->
+            <div class="portfolio-item" data-category="desktop-application">
+                <div class="portfolio-item-inner outer-shadow">
+                    <div class="portfolio-item-img">
+                        <img src="img/portfolio/thumb/project-1.png" alt="portfolio" data-screenshots="img/portfolio/large/project-1/ss1.png,
+                            img/portfolio/large/project-1/ss2.png,
+                            img/portfolio/large/project-1/ss3.png,
+                            img/portfolio/large/project-1/ss4.png,
+                            img/portfolio/large/project-1/ss5.png,
+                            img/portfolio/large/project-1/ss6.png,
+                            img/portfolio/large/project-1/ss7.png,
+                            img/portfolio/large/project-1/ss8.png,
+                            img/portfolio/large/project-1/ss9.png,
+                            img/portfolio/large/project-1/ss10.png">
+                        <!-- view project btn -->
+                        <span class="view-project">view project</span>
+                    </div>
+                    <p class="portfolio-item-title">Employee Management System </p>
+
+                    <!-- portfolio item details start  -->
+
+                    <div class="portfolio-item-details">
+                        <div class="row">
+                            <div class="description">
+                                <h3>Project Brief:</h3>
+                                <p>It is an Employee Management Desktop Application, In this User can Load Insert Update Delete and search the data and also Search the data by using employee id 
+                                    Before using this application user have to login first. This project was created during our course in RST FORUM.
+                                    </p>
+                            </div>
+                            <div class="info">
+                                <h3>Project info</h3>
+                                <ul>
+                                    <li>Date - <span>28 April 2021</span></li>
+                                    <!-- <li>Client - <span>xyz</span></li> -->
+                                    <li>Languages - <span>JAVA</span></li>
+                                    <li>Tools - <span>Eclipes , mysql Workbech</span></li>
+                                    <li>Desktop App</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- portfolio item details end  -->
+
+                </div>
+            </div>
+            <!-- portfolio item end -->
+
+            <!-- portfolio item start -->
+            <div class="portfolio-item" data-category="web-application">
+                <div class="portfolio-item-inner outer-shadow">
+                    <div class="portfolio-item-img">
+                        <img src="img/portfolio/thumb/project-2.png" alt="portfolio" data-screenshots="img/portfolio/large/project-2/ss1.png">
+                        <!-- view project btn -->
+                        <span class="view-project">view project</span>
+                    </div>
+                    <p class="portfolio-item-title">Dog  Matrimonial</p>
+
+                    <!-- portfolio item details start  -->
+
+                    <div class="portfolio-item-details">
+                        <div class="row">
+                            <div class="description">
+                                <h3>Project Brief:</h3>
+                                <p>On this website you can find a perfect match for Dog, This project is kind of Tinder Website
+                                    It is just a web Design page to learn Html CSS and BootStrap from Udemy.
+                                    </p>
+                            </div>
+                            <div class="info">
+                                <h3>Project info</h3>
+                                <ul>
+                                    <li>Date - <span>20 May 2021</span></li>
+                                    <!-- <li>Client - <span>xyz</span></li> -->
+                                    <li>Languages - <span>html css Bootstrap-4</span></li>
+                                    <li>Tools - <span>Visual Studio Code</span></li>
+                                    <!-- <li>Web - <span><a href="#">www.domain.com</a></span></li> -->
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- portfolio item details end  -->
+
+                </div>
+            </div>
+            <!-- portfolio item end -->
+
+            <!-- portfolio item start -->
+            <div class="portfolio-item" data-category="web-application">
+                <div class="portfolio-item-inner outer-shadow">
+                    <div class="portfolio-item-img">
+                        <img src="img/portfolio/thumb/project-3.png" alt="portfolio" data-screenshots="img/portfolio/large/project-3/ss1.png,
+                                        img/portfolio/large/project-3/ss2.png,
+                                        img/portfolio/large/project-3/sserror.png,
+                                        img/portfolio/large/project-3/ss3.png,
+                                        img/portfolio/large/project-3/ss4.png,
+                                        img/portfolio/large/project-3/ss5.png,
+                                        img/portfolio/large/project-3/ss6.png,
+                                        img/portfolio/large/project-3/ss7.png,
+                                        img/portfolio/large/project-3/sss.png,
+                                        img/portfolio/large/project-3/ss8.png,
+                                        img/portfolio/large/project-3/ss9.png,
+                                        img/portfolio/large/project-3/ss10.png,
+                                        img/portfolio/large/project-3/ss11.png,
+                                        img/portfolio/large/project-3/ss12.png,
+                                        img/portfolio/large/project-3/ss13.png,
+                                        img/portfolio/large/project-3/ss14.png">
+                        <!-- view project btn -->
+                        <span class="view-project">view project</span>
+                    </div>
+                    <p class="portfolio-item-title">Employee Management System</p>
+
+                    <!-- portfolio item details start  -->
+
+                    <div class="portfolio-item-details">
+                        <div class="row">
+                            <div class="description">
+                                <h3>Project Brief:</h3>
+                                <p>It is an Employee Management Web Application, In this Website Admin can Add Update Delete Print Employee Data, and Assigned Projects. 
+                                    The login access is given only to the admin and Employee can view the website This project is given by RST FORUM for practice purpose. 
+                                </p>
+                            </div>
+                            <div class="info">
+                                <h3>Project info</h3>
+                                <ul>
+                                    <li>Date - <span>1 May -16 May 2021</span></li>
+                                    <!-- <li>Client - <span>xyz</span></li> -->
+                                    <li>Languages - <span>Html Css Bootstrap-4 Java JSP mysql</span></li>
+                                    <li>Tools - <span>Eclips , Mysql Workbench</span></li>
+                                    <!-- <li>Web - <span><a href="#">www.domain.com</a></span></li> -->
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- portfolio item details end  -->
+
+                </div>
+            </div>
+            <!-- portfolio item end -->
+
+
+            <!-- portfolio item start -->
+            <div class="portfolio-item" data-category="web-application">
+                <div class="portfolio-item-inner outer-shadow">
+                    <div class="portfolio-item-img">
+                        <img src="img/portfolio/thumb/project-4.png" alt="portfolio"
+                            data-screenshots="img/portfolio/large/project-4/ss1.png">
+                        <!-- view project btn -->
+                        <span class="view-project">view project</span>
+                    </div>
+                    <p class="portfolio-item-title">MamaJI Meals</p>
+
+                    <!-- portfolio item details start  -->
+
+                    <div class="portfolio-item-details">
+                        <div class="row">
+                            <div class="description">
+                                <h3>Project Brief:</h3>
+                                <p>Mamaji Meals is a basic web-designed page that I’ve completed in the RST Forum's Course to apply and learn most of the HyperText Markup Language tags and Cascading Style Sheets attributes.
+                                </p>
+                            </div>
+                            <div class="info">
+                                <h3>Project info</h3>
+                                <ul>
+                                    <li>Date - <span>5 April - 8 April 2021</span></li>
+                                    <!-- <li>Client - <span>xyz</span></li> -->
+                                    <li>Languages - <span>html css </span></li>
+                                    <li>Tools - <span>Visual Studio Code </span></li>
+                                    <!-- <li>Web - <span><a href="#">www.domain.com</a></span></li> -->
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- portfolio item details end  -->
+
+                </div>
+            </div>
+            <!-- portfolio item end -->
+
+            <!-- portfolio item start -->
+            <!-- <div class="portfolio-item" data-category="web-application">
+                <div class="portfolio-item-inner outer-shadow">
+                    <div class="portfolio-item-img">
+                        <img src="img/portfolio/thumb/project-5.png" alt="portfolio"
+                            data-screenshots="img/portfolio/large/project-5/1.png"> -->
+                        <!-- view project btn -->
+                        <!-- <span class="view-project">view project</span>
+                    </div> -->
+                    <!-- <p class="portfolio-item-title">fitness & gym</p> -->
+
+                    <!-- portfolio item details start  -->
+
+                    <!-- <div class="portfolio-item-details">
+                        <div class="row">
+                            <div class="description">
+                                <h3>Project Brief:</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                    tempor incididunt ut
+                                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation</p>
+                            </div>
+                            <div class="info">
+                                <h3>Project info</h3>
+                                <ul>
+                                    <li>Date - <span>2020</span></li>
+                                    <li>Client - <span>xyz</span></li>
+                                    <li>Tools - <span>html css Jquery</span></li>
+                                    <li>Web - <span><a href="#">www.domain.com</a></span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div> -->
+
+                    <!-- portfolio item details end  -->
+
+                <!-- </div>
+            </div> -->
+            <!-- portfolio item end -->
+
+            <!-- portfolio item start -->
+            <!-- <div class="portfolio-item" data-category="web-application">
+                <div class="portfolio-item-inner outer-shadow">
+                    <div class="portfolio-item-img">
+                        <img src="img/portfolio/thumb/project-6.png" alt="portfolio" data-screenshots="img/portfolio/large/project-6/1.png,
+                                                img/portfolio/large/project-6/2.png,
+                                                img/portfolio/large/project-6/3.png"> -->
+                        <!-- view project btn -->
+                        <!-- <span class="view-project">view project</span>
+                    </div>
+                    <p class="portfolio-item-title">quiz application</p> -->
+
+                    <!-- portfolio item details start  -->
+
+                    <!-- <div class="portfolio-item-details">
+                        <div class="row">
+                            <div class="description">
+                                <h3>Project Brief:</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                    tempor incididunt ut
+                                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation</p>
+                            </div>
+                            <div class="info">
+                                <h3>Project info</h3>
+                                <ul>
+                                    <li>Date - <span>2020</span></li>
+                                    <li>Client - <span>xyz</span></li>
+                                    <li>Tools - <span>html css Javascript</span></li>
+                                    <li>Web - <span><a href="#">www.domain.com</a></span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div> -->
+
+                    <!-- portfolio item details end  -->
 <!-- 
-                    </div>
-                </div> -->
-                <!-- portfolio item end -->
-
-                <!-- portfolio item start -->
-                <!-- <div class="portfolio-item" data-category="mobile-app">
-                    <div class="portfolio-item-inner outer-shadow">
-                        <div class="portfolio-item-img">
-                            <img src="img/portfolio/thumb/project-7.png" alt="portfolio" data-screenshots="img/portfolio/large/project-7/1.png,
-                                                     img/portfolio/large/project-7/2.png"> -->
-                            <!-- view project btn -->
-                            <!-- <span class="view-project">view project</span>
-                        </div>
-                        <p class="portfolio-item-title">xyz app</p> -->
-
-                        <!-- portfolio item details start  -->
-
-                        <!-- <div class="portfolio-item-details">
-                            <div class="row">
-                                <div class="description">
-                                    <h3>Project Brief:</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                        tempor incididunt ut
-                                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                        exercitation</p>
-                                </div>
-                                <div class="info">
-                                    <h3>Project info</h3>
-                                    <ul>
-                                        <li>Date - <span>2020</span></li>
-                                        <li>Client - <span>xyz</span></li>
-                                        <li>Tools - <span>java, android</span></li>
-                                        <li>play Store - <span><a href="#">xyz</a></span></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div> -->
-
-                        <!-- portfolio item details end  -->
-
-                    <!-- </div>
-                </div> -->
-                <!-- portfolio item end -->
-
-
-                <!-- portfolio item start -->
-                <!-- <div class="portfolio-item" data-category="desktop-application">
-                    <div class="portfolio-item-inner outer-shadow">
-                        <div class="portfolio-item-img">
-                            <img src="img/portfolio/thumb/project-1.png" alt="portfolio" data-screenshots="img/portfolio/large/project-1/ss1.png,
-                             img/portfolio/large/project-1/ss2.png,
-                             img/portfolio/large/project-1/ss3.png,
-                             img/portfolio/large/project-1/ss4.png,
-                             img/portfolio/large/project-1/ss5.png,
-                             img/portfolio/large/project-1/ss6.png,
-                             img/portfolio/large/project-1/ss7.png,
-                             img/portfolio/large/project-1/ss8.png,
-                             img/portfolio/large/project-1/ss9.png,
-                             img/portfolio/large/project-1/ss10.png">
-                             view project btn 
-                            <span class="view-project">view project</span>
-                        </div>
-                        <p class="portfolio-item-title">Desktop Application </p> -->
-
-                        <!-- portfolio item details start  -->
-
-                        <!-- <div class="portfolio-item-details">
-                            <div class="row">
-                                <div class="description">
-                                    <h3>Project Brief:</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                        tempor incididunt ut
-                                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                        exercitation</p>
-                                </div>
-                                <div class="info">
-                                    <h3>Project info</h3>
-                                    <ul> -->
-                                        <!-- <li>Date - <span>28 April 2021</span></li> -->
-                                        <!-- <li>Client - <span>xyz</span></li> -->
-                                        <!-- <li>Languages - <span>JAVA</span></li>
-                                        <li>Tools - <span>Eclipes , mysql Workbech</span></li>
-                                        <li>Desktop App</li> -->
-                                    <!-- </ul>
-                                </div>
-                            </div>
-                        </div> -->
-
-                        <!-- portfolio item details end  -->
-
-                    <!-- </div>
-                </div> -->
-                <!-- portfolio item end -->
-            <!-- </div> -->
-            <!-- portfolio items end -->
-
-        </div>
-    </section>
-    <!-- portfolio section end -->
-
-    <!-- testimonal section start -->
-
-    <section class="testimonial-section section" id="testimonial">
-        <div class="container">
-            <div class="row">
-                <div class="section-title">
-                    <h2 data-heading="testimonial">Client Speak</h2>
                 </div>
-            </div>
-            <div class="row">
-                <div class="testi-box">
-                    <div class="testi-slider outer-shadow">
-                        <div class="testi-slider-container">
-                            <!-- testi items start -->
-                            <div class="testi-item active">
-                                <i class="fas fa-quote-left left"></i>
-                                <i class="fas fa-quote-right right"></i>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, quo.
-                                    repellat aspernatur, suscipit, consectetur voluptas laborum maiores.</p>
-                                <img src="img/testimonial/1.png" alt="testimonal">
-                                <span>Reena Gupta</span>
-                            </div>
-                            <!-- testi items end -->
+            </div> -->
+            <!-- portfolio item end -->
 
-                            <!-- testi items start -->
-                            <div class="testi-item">
-                                <i class="fas fa-quote-left left"></i>
-                                <i class="fas fa-quote-right right"></i>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, quo.
-                                    repellat aspernatur, suscipit, consectetur voluptas laborum maiores.</p>
-                                <img src="img/testimonial/1.png" alt="testimonal">
-                                <span>Sritika Manjhakar</span>
-                            </div>
-                            <!-- testi items end -->
-
-                            <!-- testi items start -->
-                            <div class="testi-item">
-                                <i class="fas fa-quote-left left"></i>
-                                <i class="fas fa-quote-right right"></i>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, quo.
-                                    repellat aspernatur, suscipit, consectetur voluptas laborum maiores.</p>
-                                <img src="img/testimonial/1.png" alt="testimonal">
-                                <span>riya gupta</span>
-                            </div>
-                            <!-- testi items end -->
-                        </div>
+            <!-- portfolio item start -->
+            <!-- <div class="portfolio-item" data-category="mobile-app">
+                <div class="portfolio-item-inner outer-shadow">
+                    <div class="portfolio-item-img">
+                        <img src="img/portfolio/thumb/project-7.png" alt="portfolio" data-screenshots="img/portfolio/large/project-7/1.png,
+                                                    img/portfolio/large/project-7/2.png"> -->
+                        <!-- view project btn -->
+                        <!-- <span class="view-project">view project</span>
                     </div>
-                    <div class="testi-slider-nav">
-                        <span class="prev outer-shadow hover-in-shadow"><i class="fas fa-angle-left"></i></span>
-                        <span class="next outer-shadow hover-in-shadow"><i class="fas fa-angle-right"></i></span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+                    <p class="portfolio-item-title">xyz app</p> -->
 
-    <!-- testimonal section ends -->
+                    <!-- portfolio item details start  -->
 
-    <!-- contact section start -->
-
-    <section class="contact-section section" id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="section-title">
-                    <h2 data-heading="contact">Get In Touch</h2>
-                </div>
-            </div>
-            <div class="row">
-                <!-- contact item start -->
-                <!-- <div class="contact-item">
-                    <div class="contact-item-inner outer-shadow">
-                        <i class="fas fa-phone"></i>
-                        <span>Phone</span>
-                        <p>000 123 7777</p>
-                    </div>
-                </div> -->
-                <!-- contact item end -->
-
-                <!-- contact item start -->
-                <div class="contact-item">
-                    <div class="contact-item-inner outer-shadow">
-                        <i class="fas fa-envelope"></i>
-                        <span>Email</span>
-                        <p>reenagupta1417@gmail.com</p>
-                    </div>
-                </div>
-                <!-- contact item end -->
-
-                <!-- contact item start -->
-                <div class="contact-item">
-                    <div class="contact-item-inner outer-shadow">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <span>Address</span>
-                        <p>Mumbai Maharashtra</p>
-                    </div>
-                </div>
-                <!-- contact item end -->
-
-                <!-- contact item start -->
-                <div class="contact-item">
-                    <div class="contact-item-inner outer-shadow">
-                        <i class="fas fa-envelope"></i>
-                        <span>Bussiness Email</span>
-                        <p>guptareena1408@gmail.com</p>
-                    </div>
-                </div>
-                <!-- contact item end -->
-            </div>
-            <div class="row">
-                <div class="contact-form">
-                    <form action="https://formsubmit.co/guptareena1408@gmail.com" method="POST">
+                    <!-- <div class="portfolio-item-details">
                         <div class="row">
-                            <div class="w-50">
-                                <div class="input-group outer-shadow hover-in-shadow">
-                                    <input type="text" placeholder="Name" class="input-controller">
-                                </div>
-                                <input type="hidden" name="_next" value="https://reena1417.github.io/Reenagupta/thankyou.html">
-
-                                <input type="text" name="_honey" style="display:none">
-
-                                <input type="hidden" name="_autoresponse" value="Thankyou for contacting us we'll get in touch with you as soonn as possible!">
-
-                                <div class="input-group outer-shadow hover-in-shadow">
-                                    <input type="email" placeholder="Email" class="input-controller">
-                                </div>
-                                <div class="input-group outer-shadow hover-in-shadow">
-                                    <input type="text" placeholder="Subject" name="_subject" class="input-controller">
-                                </div>
+                            <div class="description">
+                                <h3>Project Brief:</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                    tempor incididunt ut
+                                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation</p>
                             </div>
-                            <div class="w-50">
-                                <div class="input-group outer-shadow hover-in-shadow">
-                                    <textarea class="input-controller" name="message" placeholder="Message"></textarea>
-                                </div>
+                            <div class="info">
+                                <h3>Project info</h3>
+                                <ul>
+                                    <li>Date - <span>2020</span></li>
+                                    <li>Client - <span>xyz</span></li>
+                                    <li>Tools - <span>java, android</span></li>
+                                    <li>play Store - <span><a href="#">xyz</a></span></li>
+                                </ul>
                             </div>
                         </div>
+                    </div> -->
+
+                    <!-- portfolio item details end  -->
+
+                <!-- </div>
+            </div> -->
+            <!-- portfolio item end -->
+
+
+            <!-- portfolio item start -->
+            <!-- <div class="portfolio-item" data-category="desktop-application">
+                <div class="portfolio-item-inner outer-shadow">
+                    <div class="portfolio-item-img">
+                        <img src="img/portfolio/thumb/project-1.png" alt="portfolio" data-screenshots="img/portfolio/large/project-1/ss1.png,
+                            img/portfolio/large/project-1/ss2.png,
+                            img/portfolio/large/project-1/ss3.png,
+                            img/portfolio/large/project-1/ss4.png,
+                            img/portfolio/large/project-1/ss5.png,
+                            img/portfolio/large/project-1/ss6.png,
+                            img/portfolio/large/project-1/ss7.png,
+                            img/portfolio/large/project-1/ss8.png,
+                            img/portfolio/large/project-1/ss9.png,
+                            img/portfolio/large/project-1/ss10.png">
+                            view project btn 
+                        <span class="view-project">view project</span>
+                    </div>
+                    <p class="portfolio-item-title">Desktop Application </p> -->
+
+                    <!-- portfolio item details start  -->
+
+                    <!-- <div class="portfolio-item-details">
                         <div class="row">
-                            <div class="submit-btn">
-                                <button type="submit" class="btn-1 outer-shadow 
-                                hover-in-shadow">Send Message</button>
+                            <div class="description">
+                                <h3>Project Brief:</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                    tempor incididunt ut
+                                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation</p>
+                            </div>
+                            <div class="info">
+                                <h3>Project info</h3>
+                                <ul> -->
+                                    <!-- <li>Date - <span>28 April 2021</span></li> -->
+                                    <!-- <li>Client - <span>xyz</span></li> -->
+                                    <!-- <li>Languages - <span>JAVA</span></li>
+                                    <li>Tools - <span>Eclipes , mysql Workbech</span></li>
+                                    <li>Desktop App</li> -->
+                                <!-- </ul>
                             </div>
                         </div>
-                    </form>
+                    </div> -->
+
+                    <!-- portfolio item details end  -->
+
+                <!-- </div>
+            </div> -->
+            <!-- portfolio item end -->
+        <!-- </div> -->
+        <!-- portfolio items end -->
+
+    </div>
+</section>
+<!-- portfolio section end -->
+
+<!-- testimonal section start -->
+
+<section class="testimonial-section section" id="testimonial">
+    <div class="container">
+        <div class="row">
+            <div class="section-title">
+                <h2 data-heading="testimonial">Client Speak</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="testi-box">
+                <div class="testi-slider outer-shadow">
+                    <div class="testi-slider-container">
+                        <!-- testi items start -->
+                        <div class="testi-item active">
+                            <i class="fas fa-quote-left left"></i>
+                            <i class="fas fa-quote-right right"></i>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, quo.
+                                repellat aspernatur, suscipit, consectetur voluptas laborum maiores.</p>
+                            <img src="img/testimonial/1.png" alt="testimonal">
+                            <span>Reena Gupta</span>
+                        </div>
+                        <!-- testi items end -->
+
+                        <!-- testi items start -->
+                        <div class="testi-item">
+                            <i class="fas fa-quote-left left"></i>
+                            <i class="fas fa-quote-right right"></i>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, quo.
+                                repellat aspernatur, suscipit, consectetur voluptas laborum maiores.</p>
+                            <img src="img/testimonial/1.png" alt="testimonal">
+                            <span>Sritika Manjhakar</span>
+                        </div>
+                        <!-- testi items end -->
+
+                        <!-- testi items start -->
+                        <div class="testi-item">
+                            <i class="fas fa-quote-left left"></i>
+                            <i class="fas fa-quote-right right"></i>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, quo.
+                                repellat aspernatur, suscipit, consectetur voluptas laborum maiores.</p>
+                            <img src="img/testimonial/1.png" alt="testimonal">
+                            <span>riya gupta</span>
+                        </div>
+                        <!-- testi items end -->
+                    </div>
+                </div>
+                <div class="testi-slider-nav">
+                    <span class="prev outer-shadow hover-in-shadow"><i class="fas fa-angle-left"></i></span>
+                    <span class="next outer-shadow hover-in-shadow"><i class="fas fa-angle-right"></i></span>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
-    <!-- contact section end -->
+<!-- testimonal section ends -->
 
-    <!-- portfolio popup start -->
+<!-- contact section start -->
 
-    <div class="pp portfolio-popup">
-        <div class="pp-details">
-            <div class="pp-details-inner">
-                <div class="pp-title">
-                    <h2></h2>
-                    <p>Category - <span class="pp-project-category"></span></p>
-                </div>
-                <div class="pp-project-details">
-                </div>
+<section class="contact-section section" id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="section-title">
+                <h2 data-heading="contact">Get In Touch</h2>
             </div>
         </div>
-
-        <div class="separator"></div>
-
-        <div class="pp-main">
-            <div class="pp-main-inner">
-                <div class="pp-project-details-btn outer-shadow hover-in-shadow">Project Details
-                    <i class="fas fa-plus"></i>
+        <div class="row">
+            <!-- contact item start -->
+            <!-- <div class="contact-item">
+                <div class="contact-item-inner outer-shadow">
+                    <i class="fas fa-phone"></i>
+                    <span>Phone</span>
+                    <p>000 123 7777</p>
                 </div>
-                <div class="pp-close outer-shadow hover-in-shadow ">&times;</div>
-                <img src="img/portfolio/large/project-1/1.png" alt="img" class="pp-img outer-shadow">
-                <div class="pp-counter"></div>
+            </div> -->
+            <!-- contact item end -->
+
+            <!-- contact item start -->
+            <div class="contact-item">
+                <div class="contact-item-inner outer-shadow">
+                    <i class="fas fa-envelope"></i>
+                    <span>Email</span>
+                    <p>reenagupta1417@gmail.com</p>
+                </div>
             </div>
-            <div class="pp-loader">
-                <div></div>
+            <!-- contact item end -->
+
+            <!-- contact item start -->
+            <div class="contact-item">
+                <div class="contact-item-inner outer-shadow">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Address</span>
+                    <p>Mumbai Maharashtra</p>
+                </div>
             </div>
-            <!-- pp navigation -->
-            <div class="pp-prev"><i class="fas fa-play"></i></div>
-            <div class="pp-next"><i class="fas fa-play"></i></div>
+            <!-- contact item end -->
+
+            <!-- contact item start -->
+            <div class="contact-item">
+                <div class="contact-item-inner outer-shadow">
+                    <i class="fas fa-envelope"></i>
+                    <span>Bussiness Email</span>
+                    <p>guptareena1408@gmail.com</p>
+                </div>
+            </div>
+            <!-- contact item end -->
+        </div>
+        <div class="row">
+            <div class="contact-form">
+                <form action="https://formsubmit.co/guptareena1408@gmail.com" method="POST">
+                    <div class="row">
+                        <div class="w-50">
+                            <div class="input-group outer-shadow hover-in-shadow">
+                                <input type="text" placeholder="Name" class="input-controller">
+                            </div>
+                            <input type="hidden" name="_next" value="https://reena1417.github.io/Reenagupta/thankyou.html">
+
+                            <input type="text" name="_honey" style="display:none">
+
+                            <input type="hidden" name="_autoresponse" value="Thankyou for contacting us we'll get in touch with you as soonn as possible!">
+
+                            <div class="input-group outer-shadow hover-in-shadow">
+                                <input type="email" placeholder="Email" class="input-controller">
+                            </div>
+                            <div class="input-group outer-shadow hover-in-shadow">
+                                <input type="text" placeholder="Subject" name="_subject" class="input-controller">
+                            </div>
+                        </div>
+                        <div class="w-50">
+                            <div class="input-group outer-shadow hover-in-shadow">
+                                <textarea class="input-controller"  placeholder="Message"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="submit-btn">
+                            <button type="submit" class="btn-1 outer-shadow 
+                            hover-in-shadow">Send Message</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- contact section end -->
+
+<!-- portfolio popup start -->
+
+<div class="pp portfolio-popup">
+    <div class="pp-details">
+        <div class="pp-details-inner">
+            <div class="pp-title">
+                <h2></h2>
+                <p>Category - <span class="pp-project-category"></span></p>
+            </div>
+            <div class="pp-project-details">
+            </div>
         </div>
     </div>
 
-    <!-- portfolio popup end -->
+    <div class="separator"></div>
 
-    <!-- style switcher start - for demo purpose only  -->
+    <div class="pp-main">
+        <div class="pp-main-inner">
+            <div class="pp-project-details-btn outer-shadow hover-in-shadow">Project Details
+                <i class="fas fa-plus"></i>
+            </div>
+            <div class="pp-close outer-shadow hover-in-shadow ">&times;</div>
+            <img src="img/portfolio/large/project-1/1.png" alt="img" class="pp-img outer-shadow">
+            <div class="pp-counter"></div>
+        </div>
+        <div class="pp-loader">
+            <div></div>
+        </div>
+        <!-- pp navigation -->
+        <div class="pp-prev"><i class="fas fa-play"></i></div>
+        <div class="pp-next"><i class="fas fa-play"></i></div>
+    </div>
+</div>
 
-    <div class="style-switcher outer-shadow">
-        <div class="style-switcher-toggler s-icon outer-shadow hover-in-shadow">
-            <i class="fas fa-cog fa-spin"></i>
-        </div>
-        <div class="day-night s-icon outer-shadow hover-in-shadow">
-            <i class="fas "></i>
-        </div>
+<!-- portfolio popup end -->
 
-        <h4>Theme Colors</h4>
-        <div class="colors">
-            <span class="color-1" onclick="setActiveStyle('color-1')"></span>
-            <span class="color-2" onclick="setActiveStyle('color-2')"></span>
-            <span class="color-3" onclick="setActiveStyle('color-3')"></span>
-            <span class="color-4" onclick="setActiveStyle('color-4')"></span>
-            <span class="color-5" onclick="setActiveStyle('color-5')"></span>
-        </div>
+<!-- style switcher start - for demo purpose only  -->
+
+<div class="style-switcher outer-shadow">
+    <div class="style-switcher-toggler s-icon outer-shadow hover-in-shadow">
+        <i class="fas fa-cog fa-spin"></i>
+    </div>
+    <div class="day-night s-icon outer-shadow hover-in-shadow">
+        <i class="fas "></i>
     </div>
 
-    <!-- style switcher end - for demo purpose only  -->
+    <h4>Theme Colors</h4>
+    <div class="colors">
+        <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+        <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+        <span class="color-3" onclick="setActiveStyle('color-3')"></span>
+        <span class="color-4" onclick="setActiveStyle('color-4')"></span>
+        <span class="color-5" onclick="setActiveStyle('color-5')"></span>
+    </div>
+</div>
+
+<!-- style switcher end - for demo purpose only  -->
 
 
-    <!--main js  -->
-    <script src="js/main.js"></script>
+<!--main js  -->
+<script src="js/main.js"></script>
 
-    <!-- style switcher js -->
-    <script src="js/style-switcher.js"></script>
+<!-- style switcher js -->
+<script src="js/style-switcher.js"></script>
 </body>
 
 </html>
