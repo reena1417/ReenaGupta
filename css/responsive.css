@@ -79,6 +79,16 @@
         left: -30px;
         right: auto;
     }
+
+    .about-section .skills .skill-item .col-12 {
+        
+            flex: 0 0 100%;
+            max-width: 100%;
+        
+    }
+
+
+    
 }
 
 @media(max-width : 574px){
@@ -93,4 +103,11 @@
         font-size: 40px;
     }
 
+    .about-section .skill-item .skill-item .col-sm-4{
+        flex: 0 0 33.33333333%;
+        max-width: 33.33333333%;
+    
+    }
+
 }
+
