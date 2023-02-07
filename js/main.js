@@ -44,12 +44,12 @@
                
                //deactivate existing active 'section'
 
-               document.querySelector(".section.active").classList.add("hide");
-               document.querySelector(".section.active").classList.remove("active");
+            //    document.querySelector(".section.active").classList.add("hide");
+            //    document.querySelector(".section.active").classList.remove("active");
 
                // activate new section
-               document.querySelector(hash).classList.add("active");
-               document.querySelector(hash).classList.remove("hide");
+            //    document.querySelector(hash).classList.add("active");
+            //    document.querySelector(hash).classList.remove("hide");
 
               /* deactivate existing active navigation menu 'link-item' */
               navMenu.querySelector(".active").classList.add("outer-shadow",
@@ -378,18 +378,18 @@
                      hide all section except active
 ------------------------------------------------------------ */
 
-(() => {
+// (() => {
 
-    const sections = document.querySelectorAll(".section");
-    sections.forEach((section) => {
+//     const sections = document.querySelectorAll(".section");
+//     sections.forEach((section) => {
 
-        if(!section.classList.contains("active")){
-            section.classList.add("hide");
-        }
+//         if(!section.classList.contains("active")){
+//             // section.classList.add("hide");
+//         }
 
-    })
+//     })
 
-})();
+// })();
 
 window.addEventListener("load", () =>{
     // preloader
