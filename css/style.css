@@ -89,7 +89,7 @@ img{
 }
 
 .container{ 
-    max-width: 1140px;
+    /* max-width: 1140px; */
     margin: auto;
     
 } 
@@ -636,12 +636,14 @@ home section
 
 .home-section .home-img .img-box img{
     margin-top: 20%;
-    width: 100%;
-    border-radius: 50%;
+    margin-left: 12%;
+    width: 70%;
+    border-radius: 40%;
     border: 10px solid transparent;
 } 
 
 .home-section .social-links{
+    margin-right: 10%;
     padding-top: 5%;
     padding-left: 20%;
     
@@ -654,8 +656,9 @@ about section
 
 .about-section{
     /* background-color: #f7f7f7; */
-    padding: 80px 0 0;
+    padding: 80px 0 80px;
     min-height: 100vh;
+    margin: 0;
 }
 
 .about-section .about-img{
@@ -778,10 +781,6 @@ about section
 
 .about-section .skills{
     padding: 0 0 40px ;
-}
-
-.about-section .skills .container{
-    margin: 3rem 2rem 0 8rem;
 }
 
 .about-section .skills .container .col{
